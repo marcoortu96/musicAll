@@ -1,0 +1,41 @@
+Schema DataBase
+
+Entità e rispettivi attributi:
+
+- utente
+	#id_utente
+	+nome
+	+cognome
+	+email
+	+username
+	+password
+	+url_prof_img
+	+tipo_utente
+
+- notizia
+	#id_notizia
+	+titolo
+	+contenuto
+	+data_notizia
+	+descr_img
+	+url_img
+	+alt_img
+	+categoria
+
+- commenti
+	#id_commenti
+	+contenuto
+
+Relazioni e cardinalità:
+
+Utente-notizia -> uno a molti
+
+Utente-commenti -> uno a molti
+
+Notizia-commenti ->uno a molti
+
+
+
+
+
+
